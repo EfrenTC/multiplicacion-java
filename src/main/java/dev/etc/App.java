@@ -10,7 +10,7 @@ public class App {
             try {
                 numero = Integer.parseInt(args[0]);
             } catch (NumberFormatException e) {
-                System.out.println("El argumento debe ser un número entero. Usando 5 por defecto.");
+                System.out.println("El argumento debe ser un número entero. Usando 2 por defecto.");
             }
         }
 
